@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | Skrepka</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Typography Plugin (Критично для красивого отображения длинных текстов) -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50 min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-brand-600 rounded flex items-center justify-center text-white font-bold text-sm">
+                        SSI
+                    </div>
+                    <span class="font-bold text-lg text-gray-900 tracking-tight">Skrepka Legal</span>
+                </div>
+                <div class="flex gap-4 text-sm font-medium">
+                    <a href="#english" class="text-gray-500 hover:text-brand-600 transition-colors">English</a>
+                    <a href="#indonesian" class="text-gray-500 hover:text-brand-600 transition-colors">Bahasa Indonesia</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 md:p-12">
+            
+            <!-- Company Verification Block (Отлично работает для Stripe) -->
+            <div class="mb-10 bg-gray-50 p-4 rounded-lg border border-gray-100 text-sm text-gray-600">
+                <strong>Operator:</strong> PT SEHAT SUKSES INDONESIA<br>
+                <strong>Contact:</strong> <a href="mailto:sehatsuksesindonesia@gmail.com" class="text-brand-600 hover:underline">sehatsuksesindonesia@gmail.com</a>
+            </div>
+
+            <!-- Статья с использованием Tailwind Typography (prose) -->
+            <article class="prose prose-slate prose-a:text-brand-600 hover:prose-a:text-brand-500 max-w-none">
+                
+                <!-- ENGLISH VERSION -->
+                <section id="english" class="mb-20">
+                    <h1 class="text-3xl font-bold border-b pb-4">SKREPKA – TERMS OF SERVICE</h1>
+                    <p class="text-gray-500 font-medium">Last Updated: June 1, 2026</p>
+
+                    <p>Welcome to Skrepka!</p>
+                    <p>These Terms of Service ("Terms") constitute a legally binding agreement between you ("User" or "you") and <strong>PT SEHAT SUKSES INDONESIA</strong> ("Company", "we", "us", or "our"), governing your access to and use of the Skrepka mobile application and services (collectively, the <strong>"Service"</strong>).</p>
+
+                    <hr>
+
+                    <h2>1. Acceptance of Terms</h2>
+                    <p>By creating an account, browsing, or using the Service, you confirm that you have read, understood, and agree to be bound by:</p>
+                    <ul>
+                        <li>These Terms of Service;</li>
+                        <li>Our Privacy Policy;</li>
+                        <li>Our Refund Policy.</li>
+                    </ul>
+                    <p>If you do not agree to these Terms, you are strictly prohibited from using the Service.</p>
+
+                    <hr>
+
+                    <h2>2. Eligibility and Account Security</h2>
+                    
+                    <h3>Age Requirement</h3>
+                    <p>You must be at least <strong>18 years old</strong> (or the legal age of majority in your jurisdiction, whichever is higher) to create an account and use the Service.</p>
+
+                    <h3>Criminal History</h3>
+                    <p>By using the Service, you represent and warrant that you have never been convicted of:</p>
+                    <ul>
+                        <li>A felony;</li>
+                        <li>A sex crime;</li>
+                        <li>Any crime involving violence.</li>
+                    </ul>
+
+                    <h3>Single Account</h3>
+                    <p>You may create only <strong>one personal account</strong>. You may not:</p>
+                    <ul>
+                        <li>Sell your account;</li>
+                        <li>Transfer your account;</li>
+                        <li>License your account to another person.</li>
+                    </ul>
+
+                    <h3>Account Security</h3>
+                    <p>You are solely responsible for:</p>
+                    <ul>
+                        <li>Maintaining the confidentiality of your login credentials;</li>
+                        <li>All activities conducted under your account.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h2>3. Subscriptions and Virtual Currency ("Skrepki")</h2>
+                    
+                    <h3>Subscriptions</h3>
+                    <p>We may offer premium features through paid subscriptions. Subscriptions automatically renew until canceled.</p>
+                    
+                    <h4>Mobile Subscriptions</h4>
+                    <p>Must be canceled through:</p>
+                    <ul>
+                        <li>Apple App Store settings; or</li>
+                        <li>Google Play Store settings.</li>
+                    </ul>
+
+                    <h4>Web Subscriptions</h4>
+                    <p>Must be canceled through:</p>
+                    <ul>
+                        <li>Your Skrepka profile settings on the website; or</li>
+                        <li>The cancellation link included in billing emails from Stripe (our Merchant of Record for web purchases).</li>
+                    </ul>
+
+                    <h3>Virtual Currency ("Skrepki")</h3>
+                    <p>The Service allows you to purchase a limited, personal, non-transferable, and revocable license to use virtual currency called <strong>"Skrepki"</strong> solely within the app and website.</p>
+
+                    <h4>No Cash Value</h4>
+                    <p>"Skrepki":</p>
+                    <ul>
+                        <li>Do not constitute property;</li>
+                        <li>Have no monetary value;</li>
+                        <li>Cannot be redeemed for cash;</li>
+                        <li>Cannot be exchanged for legal tender;</li>
+                        <li>Cannot be exchanged for any currency from the Company or third parties.</li>
+                    </ul>
+
+                    <h3>All Sales Final</h3>
+                    <p>All purchases of Subscriptions and "Skrepki" are final and non-refundable except where required by:</p>
+                    <ul>
+                        <li>Applicable law;</li>
+                        <li>App Store policies;</li>
+                        <li>Our Refund Policy.</li>
+                    </ul>
+
+                    <h3>Expiration and Forfeiture</h3>
+                    <p>If your account is terminated or suspended for violating these Terms, or your account remains inactive for more than twelve (12) consecutive months, then all unused "Skrepki" and active subscriptions will be permanently forfeited without compensation.</p>
+
+                    <hr>
+
+                    <h2>4. User Conduct and Platform Safety</h2>
+                    
+                    <h3>No Verification Guarantee</h3>
+                    <p>You acknowledge that the Company does not conduct criminal background checks or identity verification on users, although we reserve the right to do so. You are solely responsible for your interactions with other users.</p>
+
+                    <h3>Prohibited Content</h3>
+                    <p>You agree not to post, upload, or share content that:</p>
+                    <ul>
+                        <li>Contains nudity, pornography, or sexually explicit material;</li>
+                        <li>Harasses, bullies, stalks, defames, or threatens any person;</li>
+                        <li>Promotes illegal activities;</li>
+                        <li>Promotes commercial solicitation;</li>
+                        <li>Promotes escort services;</li>
+                        <li>Promotes human trafficking;</li>
+                        <li>Impersonates any person or entity.</li>
+                    </ul>
+
+                    <h3>Reporting</h3>
+                    <p>You agree to immediately report users who violate these Terms or act suspiciously, using the in-app reporting tools.</p>
+
+                    <hr>
+
+                    <h2>5. Intellectual Property</h2>
+                    
+                    <h3>Our Rights</h3>
+                    <p>The Company retains all rights, title, and interest in and to the Service, including Software, Graphics, Branding, The "Skrepka" trademark, and Related intellectual property.</p>
+
+                    <h3>User Content License</h3>
+                    <p>You retain ownership of content that you upload. However, you grant the Company a Worldwide, Royalty-free, Perpetual, Sublicensable, and Transferable license to host, store, use, copy, display, reproduce, adapt, and distribute your content for purposes of operating and promoting the Service.</p>
+
+                    <hr>
+
+                    <h2>6. Disclaimer of Warranties</h2>
+                    <p><strong>THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED.</strong></p>
+                    <p>The Company expressly disclaims all warranties including Merchantability, Fitness for a particular purpose, Quiet enjoyment, and Non-infringement.</p>
+                    <p>We do not guarantee that the Service will always be secure, error-free, free of viruses, or result in successful matches or relationships.</p>
+
+                    <hr>
+
+                    <h2>7. Limitation of Liability</h2>
+                    <p><strong>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COMPANY, ITS DIRECTORS, EMPLOYEES, AND AFFILIATES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.</strong></p>
+                    <p>This includes, without limitation: Loss of profits, Loss of data, Loss of goodwill, or Other intangible losses. Such claims may arise from your access to the Service, your use of the Service, your inability to access or use the Service, conduct or content of other users, or any content obtained through the Service.</p>
+
+                    <h3>Liability Cap</h3>
+                    <p>In no event shall the Company's total liability exceed the lesser of:<br>
+                    <strong>(A)</strong> USD $100; or<br>
+                    <strong>(B)</strong> The total amount paid by you to the Company during the previous twelve (12) months.</p>
+
+                    <hr>
+
+                    <h2>8. Indemnification</h2>
+                    <p>You agree to defend, indemnify, and hold harmless the Company, its officers, directors, employees, and affiliates from and against any Claims, Liabilities, Damages, Losses, or Expenses (including reasonable legal fees), arising out of or connected with your access to the Service, your use of the Service, your content, or your violation of these Terms.</p>
+
+                    <hr>
+
+                    <h2>9. Termination</h2>
+                    <p>We reserve the right, at our sole discretion and without prior notice or liability, to Terminate, Suspend, or Restrict your account and access to the Service at any time, for any reason or no reason, including violations of these Terms.</p>
+
+                    <hr>
+
+                    <h2>10. Governing Law and Dispute Resolution</h2>
+                    
+                    <h3>Governing Law</h3>
+                    <p>These Terms and any dispute arising from them shall be governed by and construed in accordance with the laws of the <strong>Republic of Indonesia</strong>, without regard to conflict of law principles.</p>
+
+                    <h3>Dispute Resolution</h3>
+                    <p>Any dispute, controversy, or claim arising out of or relating to these Terms shall be resolved exclusively through arbitration in <strong>Jakarta, Indonesia</strong> under the rules of <strong>BANI (Indonesian National Board of Arbitration)</strong>. The language of arbitration shall be <strong>English</strong>.</p>
+
+                    <hr>
+
+                    <h2>11. Amendments</h2>
+                    <p>We reserve the right to modify these Terms at any time. We will notify users of material changes through the application or Email. Your continued use of Skrepka after such changes become effective constitutes acceptance of the updated Terms.</p>
+
+                    <hr>
+
+                    <h2>12. Contact Us</h2>
+                    <p>If you have any questions, concerns, or reports regarding these Terms, please contact us:<br>
+                    <strong>Email:</strong> <a href="mailto:sehatsuksesindonesia@gmail.com">sehatsuksesindonesia@gmail.com</a></p>
+                </section>
+
+                <!-- INDONESIAN VERSION -->
+                <section id="indonesian" class="pt-10 border-t-4 border-gray-100">
+                    <h1 class="text-3xl font-bold border-b pb-4">SKREPKA – KETENTUAN LAYANAN (TERMS OF SERVICE)</h1>
+                    <p class="text-gray-500 font-medium">Terakhir Diperbarui: 1 Juni 2026</p>
+
+                    <p>Selamat datang di Skrepka!</p>
+                    <p>Ketentuan Layanan ("Ketentuan") ini merupakan perjanjian yang mengikat secara hukum antara Anda ("Pengguna" atau "Anda") dan <strong>PT SEHAT SUKSES INDONESIA</strong> ("Perusahaan", "kami", "kita", atau "milik kami"), yang mengatur akses Anda ke dan penggunaan aplikasi seluler serta layanan Skrepka (secara kolektif disebut sebagai <strong>"Layanan"</strong>).</p>
+
+                    <hr>
+
+                    <h2>1. Penerimaan Ketentuan</h2>
+                    <p>Dengan membuat akun, menjelajahi, atau menggunakan Layanan, Anda mengonfirmasi bahwa Anda telah membaca, memahami, dan setuju untuk terikat oleh:</p>
+                    <ul>
+                        <li>Ketentuan Layanan ini;</li>
+                        <li>Kebijakan Privasi kami;</li>
+                        <li>Kebijakan Pengembalian Dana kami.</li>
+                    </ul>
+                    <p>Jika Anda tidak menyetujui Ketentuan ini, Anda dilarang menggunakan Layanan.</p>
+
+                    <hr>
+
+                    <h2>2. Kelayakan dan Keamanan Akun</h2>
+                    
+                    <h3>Persyaratan Usia</h3>
+                    <p>Anda harus berusia minimal <strong>18 tahun</strong> (atau usia legal mayoritas di yurisdiksi Anda, mana yang lebih tinggi) untuk membuat akun dan menggunakan Layanan.</p>
+
+                    <h3>Riwayat Kriminal</h3>
+                    <p>Dengan menggunakan Layanan, Anda menyatakan dan menjamin bahwa Anda tidak pernah dihukum karena:</p>
+                    <ul>
+                        <li>Tindak pidana berat (felony);</li>
+                        <li>Kejahatan seksual;</li>
+                        <li>Kejahatan apa pun yang melibatkan kekerasan.</li>
+                    </ul>
+
+                    <h3>Akun Tunggal</h3>
+                    <p>Anda hanya boleh membuat <strong>satu akun pribadi</strong>. Anda tidak diperbolehkan:</p>
+                    <ul>
+                        <li>Menjual akun;</li>
+                        <li>Mengalihkan akun;</li>
+                        <li>Melisensikan akun kepada pihak lain.</li>
+                    </ul>
+
+                    <h3>Keamanan Akun</h3>
+                    <p>Anda bertanggung jawab penuh untuk menjaga kerahasiaan kredensial login Anda dan seluruh aktivitas yang terjadi di bawah akun Anda.</p>
+
+                    <hr>
+
+                    <h2>3. Langganan dan Mata Uang Virtual ("Skrepki")</h2>
+                    
+                    <h3>Langganan</h3>
+                    <p>Kami dapat menawarkan fitur premium melalui langganan berbayar. Langganan diperpanjang secara otomatis sampai dibatalkan.</p>
+                    
+                    <h4>Langganan Seluler</h4>
+                    <p>Harus dibatalkan melalui pengaturan Apple App Store atau pengaturan Google Play Store.</p>
+
+                    <h4>Langganan Web</h4>
+                    <p>Harus dibatalkan melalui pengaturan profil Skrepka di situs web atau tautan pembatalan yang tersedia dalam email penagihan dari Stripe (Merchant of Record resmi kami untuk pembelian web).</p>
+
+                    <h3>Mata Uang Virtual ("Skrepki")</h3>
+                    <p>Layanan memungkinkan Anda membeli lisensi terbatas, pribadi, tidak dapat dialihkan, dan dapat dicabut kembali untuk menggunakan mata uang virtual yang disebut <strong>"Skrepki"</strong> hanya di dalam aplikasi dan situs web Skrepka.</p>
+
+                    <h4>Tidak Memiliki Nilai Tunai</h4>
+                    <p>"Skrepki":</p>
+                    <ul>
+                        <li>Bukan merupakan hak milik;</li>
+                        <li>Tidak memiliki nilai moneter;</li>
+                        <li>Tidak dapat ditukarkan dengan uang tunai;</li>
+                        <li>Tidak dapat ditukarkan dengan alat pembayaran yang sah;</li>
+                        <li>Tidak dapat ditukarkan dengan mata uang apa pun dari Perusahaan maupun pihak ketiga.</li>
+                    </ul>
+
+                    <h3>Semua Penjualan Bersifat Final</h3>
+                    <p>Semua pembelian Langganan dan "Skrepki" bersifat final dan tidak dapat dikembalikan, kecuali sebagaimana diwajibkan oleh Hukum yang berlaku, Kebijakan toko aplikasi, atau Kebijakan Pengembalian Dana kami.</p>
+
+                    <h3>Kedaluwarsa dan Hangus</h3>
+                    <p>Jika akun Anda ditutup atau ditangguhkan karena melanggar Ketentuan ini, atau akun Anda tidak aktif selama lebih dari dua belas (12) bulan berturut-turut, maka seluruh "Skrepki" yang belum digunakan dan langganan aktif akan hangus secara permanen tanpa kompensasi.</p>
+
+                    <hr>
+
+                    <h2>4. Perilaku Pengguna dan Keamanan Platform</h2>
+                    
+                    <h3>Tidak Ada Jaminan Verifikasi</h3>
+                    <p>Anda mengakui bahwa Perusahaan tidak melakukan pemeriksaan latar belakang kriminal maupun verifikasi identitas terhadap penggunanya, meskipun kami berhak untuk melakukannya. Anda bertanggung jawab penuh atas interaksi Anda dengan pengguna lain.</p>
+
+                    <h3>Konten yang Dilarang</h3>
+                    <p>Anda setuju untuk tidak memuat, mengunggah, atau membagikan konten yang:</p>
+                    <ul>
+                        <li>Mengandung ketelanjangan, pornografi, atau materi seksual eksplisit;</li>
+                        <li>Melecehkan, merundung (bully), menguntit (stalking), memfitnah, atau mengancam siapa pun;</li>
+                        <li>Mempromosikan aktivitas ilegal, kegiatan komersial yang tidak sah, layanan eskort atau prostitusi, atau perdagangan manusia;</li>
+                        <li>Meniru identitas orang atau entitas lain.</li>
+                    </ul>
+
+                    <h3>Pelaporan</h3>
+                    <p>Anda setuju untuk segera melaporkan pengguna yang melanggar Ketentuan ini atau bertindak mencurigakan melalui fitur pelaporan yang tersedia di dalam aplikasi.</p>
+
+                    <hr>
+
+                    <h2>5. Hak Kekayaan Intelektual</h2>
+                    
+                    <h3>Hak Kami</h3>
+                    <p>Perusahaan memiliki seluruh hak, kepemilikan, dan kepentingan atas Layanan, termasuk Perangkat lunak, Grafis, Branding, Merek dagang "Skrepka", dan Hak kekayaan intelektual terkait lainnya.</p>
+
+                    <h3>Lisensi Konten Pengguna</h3>
+                    <p>Anda tetap memiliki hak atas konten yang Anda unggah. Namun, Anda memberikan kepada Perusahaan lisensi yang berlaku di seluruh dunia, bebas royalti, berlaku tanpa batas waktu, dapat disublisensikan, dan dapat dialihkan untuk menayangkan, menyimpan, menggunakan, menyalin, menampilkan, mereproduksi, mengadaptasi, dan mendistribusikan konten Anda guna mengoperasikan dan mempromosikan Layanan.</p>
+
+                    <hr>
+
+                    <h2>6. Penafian Jaminan (Disclaimer of Warranties)</h2>
+                    <p><strong>LAYANAN DISEDIAKAN "SEBAGAIMANA ADANYA" DAN "SEBAGAIMANA TERSEDIA" TANPA JAMINAN APA PUN, BAIK TERSURAT MAUPUN TERSIRAT.</strong></p>
+                    <p>Perusahaan secara tegas menolak seluruh jaminan terkait Kelayakan jual (merchantability), Kesesuaian untuk tujuan tertentu, Kenikmatan tenang (quiet enjoyment), dan Tidak adanya pelanggaran hak pihak lain (non-infringement).</p>
+                    <p>Kami tidak menjamin bahwa Layanan akan selalu aman, bebas kesalahan, bebas dari virus, atau akan menghasilkan pasangan (matches) atau hubungan yang berhasil.</p>
+
+                    <hr>
+
+                    <h2>7. Batasan Tanggung Jawab</h2>
+                    <p><strong>SEJAUH DIIZINKAN OLEH HUKUM YANG BERLAKU, PERUSAHAAN, DIREKTUR, KARYAWAN, DAN AFILIASINYA TIDAK BERTANGGUNG JAWAB ATAS KERUGIAN TIDAK LANGSUNG, INSIDENTAL, KHUSUS, KONSEKUENSIAL, ATAU HUKUMAN.</strong></p>
+                    <p>Termasuk namun tidak terbatas pada: Kehilangan keuntungan, Kehilangan data, Kehilangan nama baik, atau Kerugian tidak berwujud lainnya. Klaim tersebut dapat timbul dari akses Anda ke Layanan, penggunaan Anda atas Layanan, ketidakmampuan Anda mengakses atau menggunakan Layanan, perilaku atau konten pengguna lain, atau konten apa pun yang diperoleh melalui Layanan.</p>
+
+                    <h3>Batas Maksimum Tanggung Jawab</h3>
+                    <p>Dalam keadaan apa pun, total tanggung jawab Perusahaan tidak akan melebihi jumlah yang lebih rendah antara:<br>
+                    <strong>(A)</strong> USD $100; atau<br>
+                    <strong>(B)</strong> Total jumlah yang telah Anda bayarkan kepada Perusahaan selama dua belas (12) bulan sebelumnya.</p>
+
+                    <hr>
+
+                    <h2>8. Ganti Rugi (Indemnification)</h2>
+                    <p>Anda setuju untuk membela, mengganti rugi, dan membebaskan Perusahaan, pejabat, direktur, karyawan, dan afiliasinya dari setiap Klaim, Kewajiban, Kerugian, Biaya, atau Pengeluaran (termasuk biaya hukum yang wajar), yang timbul dari atau terkait dengan akses Anda ke Layanan, penggunaan Anda atas Layanan, konten yang Anda unggah, atau pelanggaran Anda terhadap Ketentuan ini.</p>
+
+                    <hr>
+
+                    <h2>9. Pengakhiran (Termination)</h2>
+                    <p>Kami berhak, atas kebijakan kami sendiri dan tanpa pemberitahuan sebelumnya, untuk Mengakhiri, Menangguhkan, atau Membatasi akun dan akses Anda ke Layanan kapan saja, dengan atau tanpa alasan, termasuk karena pelanggaran terhadap Ketentuan ini.</p>
+
+                    <hr>
+
+                    <h2>10. Hukum Yang Mengatur dan Penyelesaian Perselisihan</h2>
+                    
+                    <h3>Hukum Yang Mengatur</h3>
+                    <p>Ketentuan ini dan setiap perselisihan yang timbul darinya akan diatur dan ditafsirkan sesuai dengan hukum <strong>Republik Indonesia</strong>, tanpa memperhatikan prinsip-prinsip konflik hukum.</p>
+
+                    <h3>Penyelesaian Perselisihan</h3>
+                    <p>Setiap perselisihan, kontroversi, atau klaim yang timbul dari atau terkait dengan Ketentuan ini akan diselesaikan secara eksklusif melalui arbitrase di <strong>Jakarta, Indonesia</strong> sesuai dengan peraturan <strong>Badan Arbitrase Nasional Indonesia (BANI)</strong>. Bahasa arbitrase yang digunakan adalah <strong>Bahasa Inggris</strong>.</p>
+
+                    <hr>
+
+                    <h2>11. Perubahan Ketentuan</h2>
+                    <p>Kami berhak mengubah Ketentuan ini kapan saja. Kami akan memberitahukan perubahan material melalui Aplikasi atau Email. Penggunaan berkelanjutan Anda atas Skrepka setelah perubahan berlaku dianggap sebagai penerimaan terhadap Ketentuan yang diperbarui.</p>
+
+                    <hr>
+
+                    <h2>12. Hubungi Kami</h2>
+                    <p>Jika Anda memiliki pertanyaan, keluhan, atau laporan mengenai Ketentuan ini, silakan hubungi kami:<br>
+                    <strong>Email:</strong> <a href="mailto:sehatsuksesindonesia@gmail.com">sehatsuksesindonesia@gmail.com</a></p>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6 mt-auto">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; 2026 PT Sehat Sukses Indonesia. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
