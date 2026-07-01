@@ -73,7 +73,7 @@ Must be canceled through:
 Must be canceled through:
 
 * Your Skrepka profile settings on the website; or
-* The cancellation link included in billing emails from **Paddle.com Market Ltd** (our Merchant of Record for web purchases).
+* the cancellation link included in billing emails from Stripe (our Merchant of Record for web purchases).
 
 ## Virtual Currency ("Skrepki")
 
@@ -113,7 +113,7 @@ then all unused "Skrepki" and active subscriptions will be permanently forfeited
 
 ---
 
-# 4. User Conduct and Dating Safety
+# 4. User Conduct and Platform Safety
 
 ## No Verification Guarantee
 
@@ -291,7 +291,7 @@ Your continued use of Skrepka after such changes become effective constitutes ac
 
 If you have any questions, concerns, or reports regarding these Terms, please contact us:
 
-**Email:** [skrepka2net@gmail.com](mailto:skrepka2net@gmail.com)
+**Email:** [sehatsuksesindonesia@gmail.com](mailto:sehatsuksesindonesia@gmail.com)
 
 
 # SKREPKA – KETENTUAN LAYANAN (TERMS OF SERVICE)
@@ -369,7 +369,7 @@ Harus dibatalkan melalui:
 Harus dibatalkan melalui:
 
 * Pengaturan profil Skrepka di situs web; atau
-* Tautan pembatalan yang tersedia dalam email penagihan dari **Paddle.com Market Ltd** (Merchant of Record resmi kami untuk pembelian web).
+* tautan pembatalan yang tersedia dalam email penagihan dari Stripe (Merchant of Record resmi kami untuk pembelian web).
 
 ## Mata Uang Virtual ("Skrepki")
 
@@ -409,7 +409,7 @@ maka seluruh "Skrepki" yang belum digunakan dan langganan aktif akan hangus seca
 
 ---
 
-# 4. Perilaku Pengguna dan Keamanan Kencan
+# 4. Perilaku Pengguna dan Keamanan Platform
 
 ## Tidak Ada Jaminan Verifikasi
 
@@ -587,4 +587,4 @@ Penggunaan berkelanjutan Anda atas Skrepka setelah perubahan berlaku dianggap se
 
 Jika Anda memiliki pertanyaan, keluhan, atau laporan mengenai Ketentuan ini, silakan hubungi kami:
 
-**Email:** [skrepka2net@gmail.com](mailto:skrepka2net@gmail.com)
+**Email:** [sehatsuksesindonesia@gmail.com](mailto:sehatsuksesindonesia@gmail.com)
